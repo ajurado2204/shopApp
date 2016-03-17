@@ -1,0 +1,26 @@
+{
+  "name": "shopapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajurado2204/shopApp.git"
+  },
+  "author": "Alejandra Jurado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajurado2204/shopApp/issues"
+  },
+  "homepage": "https://github.com/ajurado2204/shopApp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.7",
+    "morgan": "^1.7.0"
+  }
+}
