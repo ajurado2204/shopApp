@@ -127,7 +127,6 @@ app.post('/buyItem', function(req, res){
     if (err) {
       console.log(err);
     } else {
-
       Item.update({
         name: req.body.name
       }, {
@@ -147,7 +146,9 @@ app.post('/buyItem', function(req, res){
             }
           });
       });
+
     }
+
   });
 });
 

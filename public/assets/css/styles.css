@@ -1,0 +1,19 @@
+body {
+  background-color: #FB6648;
+}
+
+#loginheader {
+  text-align: center;
+  font-size: 150px;
+  color: #20457C;
+}
+
+.jumbotron {
+  background-color: #EBDEBC;
+}
+
+#inJumbotron {
+  text-align: center;
+  font-size: 150px;
+  color: #20457C;
+}

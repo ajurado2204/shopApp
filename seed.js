@@ -40,7 +40,7 @@ user1.save(function(err){
 
   var newItem2 = new Item({
     name: 'Skullcandy Headphones',
-    description: 'Listen to your favorite songs with no distractions with these fantastic noise cancelling skullcandy headphones.',
+    description: 'Fantastic headphones.',
     price: '75',
     itemSold: false,
     _owner: user1.id
