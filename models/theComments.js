@@ -7,6 +7,9 @@ var Schema = mongoose.Schema;
 var Comments = new Schema({
   thecomment: {
     type: String
+  },
+  username: {
+    type: String
   }
 });
 

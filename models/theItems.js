@@ -14,10 +14,17 @@ var Items = new Schema({
   price: {
     type: Number
   },
+  itemSold: {
+    type: Boolean
+  },
   comments: [{
     type: Schema.Types.ObjectId,
     ref: 'comments'
-  }]
+  }],
+  _owner: {
+    type: Schema.Types.ObjectId,
+    ref: 'users'
+  }
 });
 
 var theItems = mongoose.model('theItems', Items);
